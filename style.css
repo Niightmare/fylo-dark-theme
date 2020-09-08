@@ -145,6 +145,11 @@ h2 {
   /* border: 2px dotted lawngreen; */
 }
 
+.product-item p {
+  padding: 0 0.5em;
+  /* border: 1px solid orange; */
+}
+
 .left-content > a {
   display: flex;
   align-items: center;
@@ -511,7 +516,7 @@ li img {
     margin-top: 0;
   }
 
-  .menu {
+  .menu-footer {
     flex: 1;
     justify-content: center;
   }
