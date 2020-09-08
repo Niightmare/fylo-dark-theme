@@ -38,7 +38,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1.5em;
+  padding: 2em 2em;
 }
 
 .logo img {
@@ -171,7 +171,7 @@ h2 {
 .testimonials {
   display: flex;
   flex-direction: column;
-  margin-bottom: 5em;
+  margin-bottom: 13em;
   /* border: 1px solid lawngreen; */
 }
 
@@ -362,16 +362,19 @@ li img {
   .right-content {
     align-items: center;
   }
-  
+
   .right-content > img {
     max-width: 65%;
   }
 }
 
 @media screen and (min-width: 1024px) {
-  h1,
-  h2 {
+  h1 {
     font-size: 2.5em;
+  }
+
+  h2 {
+    font-size: 1.5em;
   }
 
   .navbar {
