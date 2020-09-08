@@ -388,7 +388,13 @@ li img {
     align-items: center;
   }
 
+  .logo img {
+    width: initial;
+    /* border: 1px solid darkcyan; */
+  }
+
   .menu a {
+    font-size: 1.17em;
     padding: 0 2em 0 2em;
   }
 
