@@ -43,6 +43,7 @@ body {
 
 .logo img {
   width: 6.5rem;
+  width: 5.5rem;
   /* border: 1px solid darkcyan; */
 }
 
@@ -350,6 +351,12 @@ li img {
 
 .social-icon:hover > i {
   color: var(--Dark-Blue-footer);
+}
+
+@media screen and (min-width: 375px) {
+  .logo img {
+    width: 6.5rem;
+  }
 }
 
 @media screen and (min-width: 500px) {
